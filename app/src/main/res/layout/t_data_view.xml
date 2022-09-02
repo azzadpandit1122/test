@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp5">
+
+        <TextView
+            android:id="@+id/tid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp5"
+            android:layout_marginTop="@dimen/dp5"
+            android:layout_marginEnd="@dimen/dp5"
+            android:layout_marginBottom="@dimen/dp5"
+            android:background="@drawable/btn_bg"
+            android:backgroundTint="#57000000"
+            android:padding="@dimen/dp10"
+            android:text="Tid : 1283394739483"
+            android:textSize="@dimen/dp15"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/amount"
+            style="@style/TextAppearance.Material3.TitleMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tid"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="@dimen/dp5"
+            android:layout_marginTop="@dimen/dp5"
+            android:layout_marginEnd="@dimen/dp5"
+            android:layout_marginBottom="@dimen/dp5"
+            android:text="Rs 12.32" />
+
+        <TextView
+            android:id="@+id/narration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tid"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="@dimen/dp5"
+            android:layout_marginTop="@dimen/dp5"
+            android:layout_marginEnd="@dimen/dp5"
+            android:layout_marginBottom="@dimen/dp5"
+            android:padding="@dimen/dp5"
+            android:text="113434343434" />
+
+
+    </RelativeLayout>
+</layout>
